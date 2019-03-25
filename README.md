@@ -7,6 +7,11 @@ Spotflock Studio renders a comprehensive spectrum of solutions that can be acces
 
 Spotflock Studio SDK requires Python 3.5 + . Go to https://studio.spotflock.com and create an app. On creation of an app, you will get an API Key.
 
+Install Spotflock Studio Python Client :
+```sh
+pip install spotflock-studio
+```
+
 ```sh
 import studio
 client = studio.StudioClient('API Key')
